@@ -1,3 +1,6 @@
+# CHANGELOG
+Added new FPS simulator that lets you simulate fps and internet speed (but it has no effect on the actual internet speed or FPS)
+More coming soon!
 # Lua-projects-1
 My lua projects! Little programs that can do random things. Look forward to making a lot more programs.
 All of these are lightweight, can run on any device and are easy to use as long as you have a clean installation of Lua 5.3.6
@@ -9,6 +12,15 @@ A bit of LUA knowledge
 Visual Studio Code
 Lua 5.3.6 (This runs on an older version that isn't really updated, no gui)
 Command Prompt
+
+# fpssimulation.lua
+In this program, you have 2 values: internetSpeed and Fps, you can manipulate these with different functions, and you can enable Fiberoptics for internet, or turn on Antigravity mode and boost your stats by... a lot to say the least.
+There are some If statements at the end that print things based on your current FPS stats.
+At the beginning of the program, the stats are as follows:
+fps = 60
+internetSpeed = 90
+Assuming that 90 and 60 are both decent.
+
 # bottyperace.lua
 In this program you watch as 2 bots race to type a sentence. (Both are very slow)
 
